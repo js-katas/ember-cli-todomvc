@@ -6,17 +6,17 @@ export default function() {
       ))
     };
   });
-  // this.post('/todos', function(db, request) {
-  //   let attrs = JSON.parse(request.requestBody);
-  //   let todo = db.todos.insert(attrs);
-  //   return {
-  //     data: {
-  //       type: 'todos',
-  //       id: todo.id,
-  //       attributes: todo
-  //     }
-  //   };
-  // });
+  this.post('/todos', function(db, request) {
+    let attrs = JSON.parse(request.requestBody);
+    let todo = db.todos.insert(attrs);
+    return {
+      data: {
+        type: 'todos',
+        id: todo.id,
+        attributes: todo
+      }
+    };
+  });
   // this.patch('/todos/:id', function(db, request){
   //   let attrs = JSON.parse(request.requestBody);
   //   let todo = db.todos.update(attrs.data.id, attrs.data.attibutes);
