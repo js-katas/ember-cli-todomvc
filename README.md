@@ -1,7 +1,6 @@
 # Todo-mvc
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is the hello world for Ember, following this [guide](http://thetechcofounder.com/getting-started-with-ember-js-using-ember-cli/). I think it is the most updated.
 
 ## Prerequisites
 
